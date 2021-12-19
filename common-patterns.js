@@ -267,25 +267,25 @@
 //     }// the console log is the code that compared the two and pulls the info. 
 //     }
 
-//Search 3)
+Search 3)
 
-        // const guests = ['Scarlett', 'Plum', 'Peacock', 'Green', 'Mustard', 'White'];
-        // const tables = [3, 1, 1, 2, 3, 2];
+        const guests = ['Scarlett', 'Plum', 'Peacock', 'Green', 'Mustard', 'White'];
+        const tables = [3, 1, 1, 2, 3, 2];
 
-        // const guestToFind = 'Mustard'; // hard-coded in this example
-        // let foundIndex = -1;
+        const guestToFind = 'Mustard'; // hard-coded in this example
+        let foundIndex = -1;
 
-        // for (let i=0; i<guests.length; i++) {
-        // if (guests[i] === guestToFind) {
-        //         foundIndex = i; // just giving a name to the i variable in the parameter
-        //         break;
-        // }
-        // }
-        // if (foundIndex !== -1) {
-        // console.log(`${guestToFind} sits at table ${tables[foundIndex]}`);
-        // } else {
-        // console.log(`${guestToFind} is not on the guest list.`);
-        // }
+        for (let i=0; i<guests.length; i++) {
+        if (guests[i] === guestToFind) {
+                foundIndex = i; // just giving a name to the i variable in the parameter
+                break;
+        }
+        }
+        if (foundIndex !== -1) {
+        console.log(`${guestToFind} sits at table ${tables[foundIndex]}`);
+        } else {
+        console.log(`${guestToFind} is not on the guest list.`);
+        }
 //maybe use this in a airplane seating situation where you need to know here someone it...
 
 //Finding a substring
